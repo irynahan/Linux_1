@@ -1,0 +1,43 @@
+   0 вфеу
+   1 date
+   2 date > /tmp/file.txt
+   3 cat /tmp/file.txt
+   4 history > /tmt/history.txtls 
+   5 history > /tmp/history.txt
+   6 cat  /tmp/history.txt
+   7 export_file
+   8 date >> /tmp/file.txt
+   9 cat /tmp/file.txt
+  10 echo hello
+  11 cat /tmt/history.txt
+  12 cat  /tmp/history.txt
+  13 history > /tmp/file.txt
+  14 cat /tmp/file.txt
+  15 cat /etc/group
+  16 cat /etc/group | wc -l
+  17 cat /etc/group | wc
+  18 cat /etc/shadow | wc -l
+  19  wc -l /tmp/file.txt
+  20 cat /etc/file.txt | wc -l
+  21 ls -la
+  22 ls -la | wc -l
+  23 ls -la | tail -3
+  24 cat /etc/sudo.conf | tail 4
+  25 cat /etc/sudo.conf | tail -4
+  26 cat /etc/sudo.conf | head -4
+  27 tree
+  28 ~
+  29 ../
+  30 ..
+  31 ../
+  32 clear
+  33 df -h
+  34 clear
+  35 df -h
+  36 df -h | grep -w /
+  37 df -h | grep -w / | awk '{print$5}'
+  38 df -h | grep -w / | awk '{print$5}'| tr -d "%"
+  39 cat /tmp/file.txt
+  40 wc -l  /tmp/file.txt
+  41 wc /tmp//file.txt 
+  42 history > /tmp/dffile.txt

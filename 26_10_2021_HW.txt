@@ -1,0 +1,22 @@
+   0 touch /tmp/my_file
+   1 date >> /tmp/my_file
+   2 df -h
+   3 df -h >> /tmp/my_file 
+   4 cat /tmp/my_file 
+   5 history | tail -5 >> /tmp/my_file 
+   6 cat /tmp/my_file 
+   7 cat proc/cpuinfo/
+   8 cat proc/cpuinfo
+   9 cat /proc/cpuinfo
+  10 cat /proc/cpuinfo | grep 'vendor' >> /tmp/my_file 
+  11 cat /tmp/my_file 
+  12 vi /tmp/my_file 
+  13 ps -ef
+  14 ps -ef | head +2 | wc -l >> /tmp/my_file 
+  15 ps -ef | head +2
+  16 ps -ef | tail -n +2
+  17 ps -ef | tail -n +2 | wc -l
+  18 ps -ef | tail -n +2 | wc -l >> /tmp/my_file
+  19 cat /tmp/my_file 
+  20 history > /tmp/history
+  
